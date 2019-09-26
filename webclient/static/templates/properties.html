@@ -1,0 +1,20 @@
+<div>
+    <div class="container">
+        <div class="row">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="accomodation in accomodations">
+                  <th>{{accomodation.title}}</th>
+                  <th><button class="btn btn-success" ng-click="book(accomodation)">Book</button></th>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+  </div>

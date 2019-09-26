@@ -1,0 +1,21 @@
+<div>
+    <div class="container">
+        <div class="row">
+          <h2>You have booked the following accomodations</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">City</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="booking in bookings">
+                  <th>{{booking.property_name}}</th>
+                  <th>{{booking.city}}</th>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
